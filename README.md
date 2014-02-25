@@ -26,3 +26,4 @@ What happens:
 
 - Processes are killed, pid files and sockets are removed.
 - Check for zombie processes: `ps aux | grep node`.
+- Orphaned pid files and sockets are deleted.
